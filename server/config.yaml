@@ -39,10 +39,10 @@ casbin:
 # system configuration
 system:
   env: 'public'  # Change to "develop" to skip authentication for development mode
-  addr: 8888
+  addr: 8871
   db-type: 'mysql'
   oss-type: 'local'
-  need-init-data: false
+  need-init-data: true
   use-multipoint: false
 
 # captcha configuration
@@ -53,11 +53,11 @@ captcha:
 
 # mysql connect configuration
 mysql:
-  path: '127.0.0.1:3306'
+  path: '10.235.25.41:3306'
   config: 'charset=utf8mb4&parseTime=True&loc=Local'
-  db-name: 'qmPlus'
+  db-name: '17_gva'
   username: 'root'
-  password: 'Aa@6447985'
+  password: '123456'
   max-idle-conns: 10
   max-open-conns: 10
   log-mode: false
