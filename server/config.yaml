@@ -42,7 +42,7 @@ system:
   addr: 8871
   db-type: 'mysql'
   oss-type: 'local'
-  need-init-data: true
+  need-init-data: false
   use-multipoint: false
 
 # captcha configuration
